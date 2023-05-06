@@ -1,4 +1,4 @@
-const consumerBusiness = require("../business/consumer.business");
+const consumerBusiness = require("./consumer-business");
 
 const create = (request, h) => {
 

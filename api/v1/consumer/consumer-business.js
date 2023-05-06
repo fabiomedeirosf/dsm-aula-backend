@@ -1,4 +1,4 @@
-const consumerRepository = require("../repository/consumer.repository");
+const consumerRepository = require("./consumer-repository");
 
 const create = (consumer) => {
 
