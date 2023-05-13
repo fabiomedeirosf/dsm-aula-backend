@@ -1,14 +1,16 @@
+const ConsumerModel = require('./consumer-model');
+
 const data = [];
+const save = async (consumer) => {
 
-const save = (consumer) => {
-
-    data.push(consumer);
-
-    return consumer;
+    const result = ConsumerModel.create(consumer);
+    return result;
 };
 
-const findAll = () => {
-    return data;
+const findAll = async () => {
+    const result = ConsumerModel.findAll({raw: true});
+
+    return result;
 }
 
 const findById = (id) => {

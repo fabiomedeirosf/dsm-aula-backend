@@ -12,7 +12,9 @@
   "dependencies": {
     "@hapi/hapi": "^21.3.0",
     "joi": "^17.8.4",
-    "klaw-sync": "^6.0.0"
+    "klaw-sync": "^6.0.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.31.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
