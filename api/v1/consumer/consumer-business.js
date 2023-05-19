@@ -1,11 +1,11 @@
-const consumerRepository = require("../repository/consumer.repository");
+const consumerRepository = require("./consumer-repository");
 
-const create = (consumer) => {
+const create = async (consumer) => {
 
     return consumerRepository.save(consumer);
 };
 
-const findAll = () => {
+const findAll = async () => {
     return consumerRepository.findAll();
 }
 
